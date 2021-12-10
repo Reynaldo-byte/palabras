@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+		<script src="script.js"></script>
+	<h1>Letra L</h1><br>
+	<h2>Ll</h2><br>
+				<div id="0">
+<button class="avanzar" onclick="avanzar(1)">Avanzar</button></div><br>
+	<div id="1" hidden>
+		<p>¿Cuál de estos objetos se escribe con L?</p>
+		<p><button class="button_imagen" onclick="comprobar('correcto',2)">Lluvia</button><button  class="button_imagen" onclick="comprobar('incorrecto',2)">Marcador</button><button  class="button_imagen" onclick="comprobar('incorrecto',2)">Rana</button></p>
+		<button class="avanzar" onclick="avanzar(2)" id="responder0" hidden>Avanzar</button>
+	</div>
+	<div id="2" hidden>
+		<p>¿Cuál de estos objetos se escribe con L?</p>
+		<p><button  class="button_imagen" onclick="comprobar('incorrecto',3)">Suma</button><button  class="button_imagen" onclick="comprobar('correcto',3)">Runa</button><button  class="button_imagen" onclick="comprobar('correcto',3)">Luna</button></p>
+		<button class="avanzar" onclick="avanzar(3)" id="responder1" hidden>Avanzar</button>
+	</div>
+	<div id="3" hidden>
+		<p>¿Cuál de estos objetos esta bien escrito?</p>
+		<p><button  class="button_imagen" onclick="comprobar('incorrecto',4)">Yanto</button><button  class="button_imagen" onclick="comprobar('incorrecto',4)">Juvia</button><button  class="button_imagen" onclick="comprobar('correcto',4)">Llamada</button></p>
+		<button class="avanzar" onclick="avanzar(4)" id="responder2" hidden>Avanzar</button>
+	</div>
+	<div id="4" hidden>
+		<p>¿Cuál de estos objetos esta bien escrito?</p>
+		<p><button class="button_imagen_escritura" onclick="comprobar('correcto',5)">Lejania</button><button class="button_imagen_escritura" onclick="comprobar('incorrecto',5)">Mueye</button><button class="button_imagen_escritura" onclick="comprobar('incorrecto',5)">Puhar</button></p>
+		<button class="avanzar" onclick="avanzar(5)" id="responder3" hidden>Avanzar</button>
+	</div>
+		<div id="5" hidden>
+			<h3>Con o sin L</h3>
+		<p>Esta historia es sobre B_anca Nieves y los Siete Enanitos.</p>
+		<p><button class="con" onclick="comprobar('correcto',6)">Con L</button><button class="sin" onclick="comprobar('correcto',6)">Sin L</button></p>
+		<button class="avanzar" onclick="avanzar(6)" id="responder4" hidden>Avanzar</button>
+	</div>
+			<div id="6" hidden>
+			<h3>Con o sin L</h3>
+		<p>La _uz siempre se mostrara.</p>
+		<p><button class="con">Con L</button><button class="sin">Sin L</button></p>
+		<button class="avanzar" onclick="avanzar(7)" id="responder5" hidden>Avanzar</button>
+	</div>
+	<div id="7" hidden> 
+		<h1>¡Muy bien!</h1><br>
+		<p>Hemos aprendido la letra Ll, Ahora practiquemos con nuestros compañeros nuevos ejercicios.</p>
+		<button onclick="init()" class="avanzar">Repetir</button>
+	</div>
+	
+</body>
+</html>

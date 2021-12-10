@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+		<script src="script.js"></script>
+	<h1>Letra G</h1><br>
+	<h2>Gg</h2><br>
+			<div id="0">
+<button class="avanzar" onclick="avanzar(1)">Avanzar</button></div>
+	<br>
+	<div id="1" hidden>
+		<p>¿Cuál de estos objetos se escribe con G?</p>
+		<p><button class="button_imagen" onclick="comprobar('incorrecto',2)">Queso</button><button  class="button_imagen" onclick="comprobar('correcto',2)">Gato</button><button  class="button_imagen" onclick="comprobar('incorrecto',2)">Carro</button></p>
+	</div>
+	<div id="2" hidden>
+		<p>¿Cuál de estos objetos se escribe con G?</p>
+		<p><button  class="button_imagen" onclick="comprobar('correcto',3)">Gavilan</button><button  class="button_imagen" onclick="comprobar('incorrecto',3)">Capital</button><button  class="button_imagen" onclick="comprobar('incorrecto',3)">Calcar</button></p>
+	</div>
+	<div id="3" hidden>
+		<p>¿Cuál de estos objetos esta bien escrito?</p>
+		<p><button  class="button_imagen" onclick="comprobar('incorrecto',4)">Gueso</button><button  class="button_imagen" onclick="comprobar('correcto',4)">Guiso</button><button  class="button_imagen" onclick="comprobar('incorrecto',4)">Garma</button></p>
+	</div>
+	<div id="4" hidden>
+		<p>¿Cuál de estos objetos esta bien escrito?</p>
+		<p><button class="button_imagen_escritura" onclick="comprobar('incorrecto',5)">Kerra</button><button class="button_imagen_escritura" onclick="comprobar('incorrecto',5)">Querra</button><button class="button_imagen_escritura" onclick="comprobar('correcto',5)">Guerra</button></p>
+	</div>
+		<div id="5" hidden>
+			<h3>Con o sin G</h3>
+		<p>La paloma huía del nido del _avilan</p>
+		<p><button class="con" onclick="comprobar('correcto',6)">Con G</button><button class="sin" onclick="comprobar('incorrecto',6)">Sin G</button></p>
+	</div>
+			<div id="6" hidden>
+			<h3>Con o sin G</h3>
+		<p>Eso es historia anti_üa.</p>
+		<p><button class="con" onclick="comprobar('correcto',7)">Con G</button><button class="sin" onclick="comprobar('incorrecto',7)">Sin G</button></p>
+	</div>
+	<div id="7" hidden> 
+		<h1>¡Muy bien!</h1><br>
+		<p>Hemos aprendido la letra Gg, Ahora practiquemos con nuestros compañeros nuevos ejercicios.</p>
+			<button onclick="init()" class="avanzar">Repetir</button>
+	</div>
+
+</body>
+</html>
