@@ -66,17 +66,24 @@ h2{
 		font-size: 1.8rem;
 	color: white;
 }
-.button_imagen{
+.button_imagen,.button_imagen_escritura{
 	background-color: aquamarine;
-	font-size: 1.3rem;
+	
 	color: black;
 
-	height: 25%;
+	width: 15vw;
+	height: 15vh;
 }
-.button_imagen:hover{
+.button_imagen:hover,.button_imagen_escritura:hover{
 			background-color: deepskyblue;
 	font-size: 1.8rem;
 	color: white;
 	
-	height: 30%;
+	width: 20vw;
+	height: 20vh;
+}
+.button_imagen img, .button_imagen_escritura img{
+	width: 10vw;
+	height: 10vh;
+	
 }
