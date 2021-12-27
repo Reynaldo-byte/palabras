@@ -31,11 +31,13 @@ function comprobar(resultado,ids) {
 	if (resultado=='correcto') {
 		
 		document.getElementById("responder"+(ids-2)).removeAttribute("hidden")
+		document.getElementById("correcto_"+(ids-1)).style="border-color:green;border-width: 1rem;";
 
 	}
 	if (resultado=='incorrecto') {
 
-		document.getElementById("responder"+(ids-2)).setAttribute("hidden","")
+		document.getElementById("responder"+(ids-2)).setAttribute("hidden","");
+		document.getElementById("correcto_"+(ids-1)).style="";
 	}
 }
 

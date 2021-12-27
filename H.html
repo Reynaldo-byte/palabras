@@ -16,40 +16,40 @@
 	<br>
 	<div id="1" hidden>
 		<p>¿Cuál de estos objetos se escribe con H?</p>
-		<p><button class="button_imagen" onclick="comprobar('correcto',2)"><img src="hilo.png"></button><button  class="button_imagen" onclick="comprobar('incorrecto',2)"><img src="jaula.png"></button><button  class="button_imagen" onclick="comprobar('incorrecto',2)"><img src="estrella (2).png"></button></p>
+		<p><button class="button_imagen" id="correcto_1" onclick="comprobar('correcto',2)"><img src="hilo.png"></button><button  class="button_imagen" onclick="comprobar('incorrecto',2)"><img src="jaula.png"></button><button  class="button_imagen" onclick="comprobar('incorrecto',2)"><img src="estrella (2).png"></button></p>
 		<button class="avanzar" onclick="avanzar(2)" id="responder0" hidden>Avanzar</button>
 	</div>
 	<div id="2" hidden>
 		<p>¿Cuál de estos objetos se escribe con H?</p>
-		<p><button  class="button_imagen" onclick="comprobar('incorrecto',3)"><img src="pizza.png"></button><button  class="button_imagen" onclick="comprobar('correcto',3)"><img src="hamburguesa.png"></button><button  class="button_imagen" onclick="comprobar('incorrecto',3)"><img src="pera.png"></button></p>
+		<p><button  class="button_imagen" onclick="comprobar('incorrecto',3)"><img src="pizza.png"></button><button  class="button_imagen" onclick="comprobar('correcto',3)" id="correcto_2"><img src="hamburguesa.png"></button><button  class="button_imagen" onclick="comprobar('incorrecto',3)"><img src="pera.png"></button></p>
 		<button class="avanzar" onclick="avanzar(3)" id="responder1" hidden>Avanzar</button>
 	</div>
 	<div id="3" hidden>
-		<p>¿Cuál de estos objetos esta bien escrito?</p>
-				<p><button class="button_imagen_escritura" onclick="comprobar('incorrecto',4)"><img src="general.png"><br>Gheneral</button><button class="button_imagen_escritura" onclick="comprobar('correcto',4)"><img src="hormiga.png"><br>Hormiga</button><button class="button_imagen_escritura" onclick="comprobar('incorrecto',4)"><img src="raton (3).png"><br>Rathon</button></p>
+		<p>¿Cuáles de estos objetos están bien escritos?</p>
+				<p><button class="button_imagen_escritura" onclick="comprobar('incorrecto',4)"><img src="general.png"><br>Gheneral</button><button class="button_imagen_escritura" onclick="comprobar('correcto',4)" id="correcto_3"><img src="hormiga.png"><br>Hormiga</button><button class="button_imagen_escritura" onclick="comprobar('incorrecto',4)"><img src="raton (3).png"><br>Rathon</button></p>
 		<button class="avanzar" onclick="avanzar(4)" id="responder2" hidden>Avanzar</button>
 	</div>
 	<div id="4" hidden>
-		<p>¿Cuál de estos objetos esta bien escrito?</p>
-		<p><button class="button_imagen_escritura" onclick="comprobar('incorrecto',5)"><img src="jaula.png"><br>haula</button><button class="button_imagen_escritura" onclick="comprobar('correcto',5)"><img src="huevo.png"><br>Huevo</button><button class="button_imagen_escritura" onclick="comprobar('incorrecto',5)"><img src="estrella (3).png"><br>Hestrella</button></p>
+		<p>¿Cuáles de estos objetos están bien escritos?</p>
+		<p><button class="button_imagen_escritura" onclick="comprobar('incorrecto',5)"><img src="jaula.png"><br>haula</button><button class="button_imagen_escritura" onclick="comprobar('correcto',5) " id="correcto_4"><img src="huevo.png"><br>Huevo</button><button class="button_imagen_escritura" onclick="comprobar('incorrecto',5)"><img src="estrella (3).png"><br>Hestrella</button></p>
 		<button class="avanzar" onclick="avanzar(5)" id="responder3" hidden>Avanzar</button>
 	</div>
 	<div id="5" hidden>
 			<h3>Con o sin H</h3>
-		<p>¿La paloma huía del nido del _alcón</p>
-		<p><button class="con" onclick="comprobar('correcto',6)">Con H</button><button class="sin" onclick="comprobar('incorrecto',6)">Sin H</button></p>
+		<p>La paloma huía del nido del _alcón</p>
+		<p><button class="con" onclick="comprobar('correcto',6)" id="correcto_5">Con H</button><button class="sin" onclick="comprobar('incorrecto',6)">Sin H</button></p>
 		<button class="avanzar" onclick="avanzar(6)" id="responder4" hidden>Avanzar</button>
 	</div>
 	<div id="6" hidden>
 			<h3>Con o sin H</h3>
 		<p>Helena se fue en _automóvil.</p>
-		<p><button class="con" onclick="comprobar('incorrecto',7)">Con H</button><button class="sin" onclick="comprobar('correcto',7)">Sin H</button></p>
+		<p><button class="con" onclick="comprobar('incorrecto',7)">Con H</button><button class="sin" onclick="comprobar('correcto',7)" id="correcto_6">Sin H</button></p>
 		<button class="avanzar" onclick="avanzar(7)" id="responder5" hidden>Avanzar</button>
 	</div>
 	<div id="7" hidden> 
 		<h1>¡Muy bien!</h1><br>
-		<p>Hemos aprendido la letra Hh, Ahora practiquemos con nuestros compañeros nuevos ejercicios.</p>
-			<button onclick="init()" class="avanzar">Repetir</button>
+		<p>Hemos aprendido la letra Hh. Ahora practiquemos con nuestros compañeros nuevos ejercicios.</p>
+			<button onclick="window.location.replace('J.html');" class="avanzar">Avanzar</button>
 	</div>
 </div>
 </body>
