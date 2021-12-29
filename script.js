@@ -35,7 +35,7 @@ function comprobar(resultado,ids) {
 		document.getElementById("responder"+(ids-2)).removeAttribute("hidden");
 	}
 	if (resultado=='incorrecto') {
-	document.getElementById("incorrecto"+(ids-1)).removeAttribute("hidden");
+	document.getElementById("incorrecto"+(ids-2)).removeAttribute("hidden");
 		document.getElementById("responder"+(ids-2)).setAttribute("hidden","");
 		document.getElementById("correcto_"+(ids-1)).style="";
 	}
