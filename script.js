@@ -32,7 +32,7 @@ function comprobar(resultado,ids) {
 		
 		document.getElementById("incorrecto"+(ids-1)).setAttribute("hidden","");
 		document.getElementById("correcto_"+(ids-1)).style="border-color:green;border-width: 0.5rem;";
-		document.getElementById("incorrecto"+(ids-1)).style="";
+		document.getElementById("responder"+(ids-1)).removeAttribute("hidden")";
 	}
 	if (resultado=='incorrecto') {
 	document.getElementById("incorrecto"+(ids-1)).removeAttribute("hidden")
