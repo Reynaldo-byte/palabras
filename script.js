@@ -30,9 +30,9 @@ function comprobar(resultado,ids) {
 	
 	if (resultado=='correcto') {
 		
-		document.getElementById("incorrecto"+(ids-1)).setAttribute("hidden","");
+		document.getElementById("incorrecto"+(ids-2)).setAttribute("hidden","");
 		document.getElementById("correcto_"+(ids-1)).style="border-color:green;border-width: 0.5rem;";
-		document.getElementById("responder"+(ids-1)).removeAttribute("hidden");
+		document.getElementById("responder"+(ids-2)).removeAttribute("hidden");
 	}
 	if (resultado=='incorrecto') {
 	document.getElementById("incorrecto"+(ids-1)).removeAttribute("hidden");
