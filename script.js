@@ -30,12 +30,12 @@ function comprobar(resultado,ids) {
 	
 	if (resultado=='correcto') {
 		
-		document.getElementById("responder"+(ids-2)).removeAttribute("hidden")
+		document.getElementById("incorrecto"+(ids-1)).setAttribute("hidden","");
 		document.getElementById("correcto_"+(ids-1)).style="border-color:green;border-width: 0.5rem;";
-
+		document.getElementById("incorrecto"+(ids-1)).style="";
 	}
 	if (resultado=='incorrecto') {
-
+	document.getElementById("inocrrecto"+(ids-1)).removeAttribute("hidden")
 		document.getElementById("responder"+(ids-2)).setAttribute("hidden","");
 		document.getElementById("correcto_"+(ids-1)).style="";
 	}
