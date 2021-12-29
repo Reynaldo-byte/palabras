@@ -31,7 +31,7 @@ function comprobar(resultado,ids) {
 	if (resultado=='correcto') {
 		
 		document.getElementById("responder"+(ids-2)).removeAttribute("hidden")
-		document.getElementById("correcto_"+(ids-1)).style="border-color:green;border-width: 1rem;";
+		document.getElementById("correcto_"+(ids-1)).style="border-color:green;border-width: 0.5rem;";
 
 	}
 	if (resultado=='incorrecto') {
