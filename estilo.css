@@ -92,7 +92,7 @@ h2{
 	
 }
 @media only screen and (orientation:portrait) {
-        h1,h2 { display: none; }
+        h1,h2,div { display: none; }
         #aviso-movil-horizontal { 
           display:block;
       font-size: 1rem;
