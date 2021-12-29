@@ -3,20 +3,7 @@ body{
 	text-align: center;
 	background-image: url(fondo.png);
 background-size: 100%;}
-@media only screen and (orientation:portrait) {
-        #0 { display:none; }
-        #aviso-movil-horizontal { 
-          display:block;
-      font-size: 1rem;
-                text-align: center;
-                font-weight: bolder;}
-		    
-      
-    }
 
-    @media only screen and (orientation:landscape) {
-        #aviso-movil-horizontal { display:none; }
-    }
 div{
 	padding: 0.5rem;
 	background-color: rgba(255, 255, 255, 0.7);
@@ -104,3 +91,17 @@ h2{
 	
 	
 }
+@media only screen and (orientation:portrait) {
+        #0 { display:none; }
+        #aviso-movil-horizontal { 
+          display:block;
+      font-size: 1rem;
+                text-align: center;
+                font-weight: bolder;}
+		    
+      
+    }
+
+    @media only screen and (orientation:landscape) {
+        #aviso-movil-horizontal { display:none; }
+    }
