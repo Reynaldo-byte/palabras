@@ -86,7 +86,7 @@ h2{
 	
 	color: black;
 	font-size: 1.3rem;
-	
+	width:15vw;
 	height:15vh;
 }
 .button_imagen:hover,.button_imagen_escritura:hover{
@@ -94,7 +94,7 @@ h2{
 	font-size: 1.8rem;
 	color: white;
 	
-
+	width:20vw;
 	height:20vh;
 }
 
